@@ -1,6 +1,5 @@
 # pdm1-imc
 
-## Atividade aula 09/03/2022
 _Fagno_
 | 09 de Mar.
 
