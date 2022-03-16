@@ -40,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
         double altura = Double.parseDouble(etAltura.getText().toString());
         double resultado = calculaIMC(peso, altura);
 
+        exibirResultado(resultado);
+    }
+
+    private void exibirResultado(double resultado){
         tvResultado.setText(
                 String.format("%.1f", resultado)
                         + "\n"
